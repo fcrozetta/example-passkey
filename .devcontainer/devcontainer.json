@@ -24,7 +24,8 @@
 				"ms-python.python",
 				"svelte.svelte-vscode",
 				"ms-vscode.sublime-keybindings",
-				"ms-python.vscode-pylance"
+				"ms-python.vscode-pylance",
+				"ms-python.black-formatter"
 			]
 		}
 	}
