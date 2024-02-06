@@ -60,21 +60,18 @@
 			asseResp = await startAuthentication(AuthOptions, true);
 			console.log("ASSERESP")
 			console.log(JSON.stringify(asseResp));
+			
 		} catch (error) {
 			// Some basic error handling
 			console.error(error);
 			throw error;
 		}
-
-		const verificationResp = await fetch(server + '/auth/login', {
+		const verificationResp = await fetch(server + '/auth/login2', {
 			method: 'POST',
-			// mode: 'no-cors',
-			// headers: {
-			// 	'Content-Type': 'application/json'
-			// },
+			headers: {
+				'Content-Type': 'application/json'
+			},
 			body: JSON.stringify(asseResp)
-		}).catch(err => {
-			console.error(err)
 		});
 	}
 </script>
