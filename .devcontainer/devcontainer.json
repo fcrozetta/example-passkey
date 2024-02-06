@@ -21,7 +21,9 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"ms-python.python"
+				"ms-python.python",
+				"svelte.svelte-vscode",
+				"ms-vscode.sublime-keybindings"
 			]
 		}
 	}
