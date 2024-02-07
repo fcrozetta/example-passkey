@@ -66,7 +66,7 @@
 			console.error(error);
 			throw error;
 		}
-		const verificationResp = await fetch(server + '/auth/login2', {
+		const verificationResp = await fetch(server + '/auth/login', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
